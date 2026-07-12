@@ -2,11 +2,14 @@ import { useState, useEffect } from 'react';
 import { Save, Sparkles, Globe, Mail, MapPin } from 'lucide-react';
 import { getSettings, updateSettings } from '../../services/api';
 import { LoadingSpinner } from '../../components/common/Loading';
+import { useSettings } from '../../context/SettingsContext';
+import LogoIcon from '../../components/common/LogoIcon';
 
 export default function Settings() {
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [logoFile, setLogoFile] = useState(null);
+  const { settings, refreshSettings } = useSettings();
   
   const [formData, setFormData] = useState({
     teamName: '', tagline: '', description: '', mission: '', vision: '',
@@ -76,6 +79,7 @@ export default function Settings() {
       setSaving(true);
       await updateSettings(dataToSend);
       alert('Global configurations updated successfully.');
+      await refreshSettings();
       fetchSettings();
     } catch (err) {
       console.error(err);
@@ -111,7 +115,27 @@ export default function Settings() {
             </div>
             <div className="form-group" style={{ margin: 0 }}>
               <label className="form-label" htmlFor="logo">Upload Logo File</label>
-              <input id="logo" type="file" accept="image/*" onChange={(e) => setLogoFile(e.target.files[0])} />
+              <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginTop: '0.25rem' }}>
+                <div style={{
+                  width: 50, height: 50, borderRadius: 10,
+                  background: (settings?.logo || logoFile) ? 'transparent' : 'var(--background-secondary)',
+                  border: '1px dashed var(--border-primary)',
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  overflow: 'hidden',
+                  flexShrink: 0
+                }}>
+                  {logoFile ? (
+                    <img src={URL.createObjectURL(logoFile)} alt="Preview" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  ) : settings?.logo ? (
+                    <img src={settings.logo} alt="Current Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  ) : (
+                    <div style={{ color: 'var(--text-muted)' }}>
+                      <LogoIcon size={24} />
+                    </div>
+                  )}
+                </div>
+                <input id="logo" type="file" accept="image/*" onChange={(e) => setLogoFile(e.target.files[0])} style={{ flex: 1 }} />
+              </div>
             </div>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>

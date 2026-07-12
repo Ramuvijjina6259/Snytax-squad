@@ -6,6 +6,8 @@ import {
 } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 import { useTheme } from '../../context/ThemeContext';
+import { useSettings } from '../../context/SettingsContext';
+import LogoIcon from '../common/LogoIcon';
 
 const navItems = [
   { to: '/admin/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
@@ -20,6 +22,7 @@ const navItems = [
 export default function AdminSidebar() {
   const { admin, logout } = useAuth();
   const { isDark, toggleTheme } = useTheme();
+  const { settings } = useSettings();
 
   const filteredNavItems = navItems.filter(item => {
     if (admin?.role !== 'admin') {
@@ -37,12 +40,28 @@ export default function AdminSidebar() {
     <aside className="admin-sidebar">
       {/* Logo */}
       <Link to="/admin/dashboard" style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', textDecoration: 'none', padding: '0.5rem 0.75rem', marginBottom: '1.5rem' }}>
-        <div style={{ width: 36, height: 36, borderRadius: 10, background: isDark ? '#ffffff' : '#000000', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-          <Code2 size={18} color={isDark ? '#000000' : '#ffffff'} />
+        <div style={{
+          width: 36, height: 36, borderRadius: 10,
+          background: settings?.logo ? 'transparent' : (isDark ? '#ffffff' : '#000000'),
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          flexShrink: 0,
+          overflow: 'hidden'
+        }}>
+          {settings?.logo ? (
+            <img 
+              src={settings.logo} 
+              alt={settings.teamName || "Syntax Squad Logo"} 
+              style={{ width: '100%', height: '100%', objectFit: 'contain' }} 
+            />
+          ) : (
+            <div style={{ color: isDark ? '#000000' : '#ffffff' }}>
+              <LogoIcon size={18} />
+            </div>
+          )}
         </div>
         <div>
           <div style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '0.9rem', color: 'var(--text-primary)' }}>
-            Syntax Squad
+            {settings?.teamName || "Syntax Squad"}
           </div>
           <div style={{ fontSize: '0.6rem', color: 'var(--text-muted)', letterSpacing: '0.06em' }}>ADMIN PANEL</div>
         </div>
@@ -80,7 +99,7 @@ export default function AdminSidebar() {
           <span>{isDark ? 'Light Mode' : 'Dark Mode'}</span>
         </button>
         <a href="/" target="_blank" rel="noopener noreferrer" className="sidebar-nav-item" style={{ textDecoration: 'none' }}>
-          <Code2 size={17} />
+          <LogoIcon size={17} />
           <span>View Site</span>
         </a>
         <button

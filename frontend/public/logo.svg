@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="800" height="800" fill="#000000"/>
+  
+  <g transform="translate(100, 70)">
+    <!-- Stylized Geometric S Monogram -->
+    <!-- Top-Left Segment of S -->
+    <path d="M 400,70 
+             L 210,70 
+             L 130,150 
+             L 210,230 
+             L 290,230 
+             L 200,320 
+             L 260,380 
+             L 420,220 
+             L 350,150 
+             L 280,150 
+             L 360,70 Z" 
+          fill="#FFFFFF" />
+          
+    <!-- Bottom-Right Segment of S -->
+    <path d="M 200,380 
+             L 390,380 
+             L 470,300 
+             L 390,220 
+             L 310,220 
+             L 400,130 
+             L 340,70 
+             L 180,230 
+             L 250,300 
+             L 320,300 
+             L 240,380 Z" 
+          fill="#FFFFFF" />
+
+    <!-- Center Code Icon </> -->
+    <g stroke="#000000" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <!-- Background for readability of bracket in overlay -->
+      <circle cx="300" cy="225" r="45" fill="#000000" stroke="none" />
+    </g>
+    
+    <!-- Code bracket stroke -->
+    <g stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <!-- < -->
+      <path d="M 275,210 L 255,225 L 275,240" />
+      <!-- / -->
+      <path d="M 305,200 L 295,250" />
+      <!-- > -->
+      <path d="M 325,210 L 345,225 L 325,240" />
+    </g>
+
+    <!-- Typography Group -->
+    <g fill="#FFFFFF" text-anchor="middle" font-family="'Space Grotesk', 'Inter', sans-serif">
+      <!-- SYNTAX -->
+      <text x="300" y="520" font-size="82" font-weight="800" letter-spacing="16">SYNTAX</text>
+      
+      <!-- SQUAD (with horizontal accents) -->
+      <line x1="80" y1="595" x2="190" y2="595" stroke="#FFFFFF" stroke-width="3" opacity="0.8"/>
+      <text x="300" y="612" font-size="48" font-weight="700" letter-spacing="18">SQUAD</text>
+      <line x1="410" y1="595" x2="520" y2="595" stroke="#FFFFFF" stroke-width="3" opacity="0.8"/>
+      
+      <!-- Tagline -->
+      <text x="300" y="675" font-size="22" font-weight="500" letter-spacing="6" opacity="0.9">CODE. LEARN. BUILD. WIN.</text>
+    </g>
+  </g>
+</svg>

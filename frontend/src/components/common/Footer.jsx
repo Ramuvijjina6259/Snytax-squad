@@ -2,6 +2,8 @@ import { Link } from 'react-router-dom';
 import { Code2, Mail, MapPin, ArrowRight } from 'lucide-react';
 import { Github, Linkedin } from './Icons';
 import { useTheme } from '../../context/ThemeContext';
+import { useSettings } from '../../context/SettingsContext';
+import LogoIcon from './LogoIcon';
 
 const quickLinks = [
   { to: '/', label: 'Home' },
@@ -21,6 +23,7 @@ const projectLinks = [
 
 export default function Footer() {
   const { isDark } = useTheme();
+  const { settings } = useSettings();
 
   return (
     <footer className="footer">
@@ -31,16 +34,29 @@ export default function Footer() {
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '1rem' }}>
               <div style={{
                 width: 40, height: 40, borderRadius: 12,
-                background: isDark ? '#ffffff' : '#000000',
-                display: 'flex', alignItems: 'center', justifyContent: 'center'
+                background: settings?.logo ? 'transparent' : (isDark ? '#ffffff' : '#000000'),
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                overflow: 'hidden'
               }}>
-                <Code2 size={20} color={isDark ? '#000000' : '#ffffff'} />
+                {settings?.logo ? (
+                  <img 
+                    src={settings.logo} 
+                    alt={settings.teamName || "Syntax Squad Logo"} 
+                    style={{ width: '100%', height: '100%', objectFit: 'contain' }} 
+                  />
+                ) : (
+                  <div style={{ color: isDark ? '#000000' : '#ffffff' }}>
+                    <LogoIcon size={22} />
+                  </div>
+                )}
               </div>
               <div>
                 <div style={{ fontFamily: 'var(--font-display)', fontWeight: 800, fontSize: '1.1rem', color: 'var(--text-primary)' }}>
-                  Syntax Squad
+                  {settings?.teamName || "Syntax Squad"}
                 </div>
-                <div style={{ fontSize: '0.65rem', color: 'var(--text-muted)', letterSpacing: '0.05em' }}>SOFTWARE TEAM</div>
+                <div style={{ fontSize: '0.65rem', color: 'var(--text-muted)', letterSpacing: '0.05em' }}>
+                  {settings?.tagline || "SOFTWARE TEAM"}
+                </div>
               </div>
             </div>
             <p style={{ fontSize: '0.85rem', lineHeight: 1.7, color: 'var(--text-secondary)', marginBottom: '1.25rem' }}>

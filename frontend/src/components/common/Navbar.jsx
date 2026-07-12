@@ -3,6 +3,8 @@ import { NavLink, Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Sun, Moon, Menu, X, Code2, Mail } from 'lucide-react';
 import { useTheme } from '../../context/ThemeContext';
+import { useSettings } from '../../context/SettingsContext';
+import LogoIcon from './LogoIcon';
 
 const navItems = [
   { to: '/', label: 'Home' },
@@ -16,6 +18,7 @@ const navItems = [
 
 export default function Navbar() {
   const { theme, toggleTheme, isDark } = useTheme();
+  const { settings } = useSettings();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
@@ -66,11 +69,22 @@ export default function Navbar() {
           >
             <div style={{
               width: 36, height: 36, borderRadius: 10,
-              background: isDark ? '#ffffff' : '#000000',
+              background: settings?.logo ? 'transparent' : (isDark ? '#ffffff' : '#000000'),
               display: 'flex', alignItems: 'center', justifyContent: 'center',
-              boxShadow: 'var(--shadow-md)'
+              boxShadow: settings?.logo ? 'none' : 'var(--shadow-md)',
+              overflow: 'hidden'
             }}>
-              <Code2 size={18} color={isDark ? '#000000' : '#ffffff'} />
+              {settings?.logo ? (
+                <img 
+                  src={settings.logo} 
+                  alt={settings.teamName || "Syntax Squad Logo"} 
+                  style={{ width: '100%', height: '100%', objectFit: 'contain' }} 
+                />
+              ) : (
+                <div style={{ color: isDark ? '#000000' : '#ffffff' }}>
+                  <LogoIcon size={20} />
+                </div>
+              )}
             </div>
             <div>
               <div style={{
@@ -79,9 +93,9 @@ export default function Navbar() {
                 fontSize: '1rem',
                 color: 'var(--text-primary)',
                 lineHeight: 1.1,
-              }}>Syntax Squad</div>
+              }}>{settings?.teamName || "Syntax Squad"}</div>
               <div style={{ fontSize: '0.6rem', color: 'var(--text-muted)', lineHeight: 1, letterSpacing: '0.05em' }}>
-                Building Solutions
+                {settings?.tagline || "Building Solutions"}
               </div>
             </div>
           </div>

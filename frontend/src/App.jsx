@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Outlet, Navigate } from 'react-
 import { Toaster } from 'react-hot-toast';
 import { ThemeProvider } from './context/ThemeContext';
 import { AuthProvider } from './context/AuthContext';
+import { SettingsProvider } from './context/SettingsContext';
 
 // Layouts
 import Navbar from './components/common/Navbar';
@@ -59,48 +60,50 @@ export default function App() {
   return (
     <ThemeProvider>
       <AuthProvider>
-        <Router>
-          <Routes>
-            {/* Public Routes */}
-            <Route element={<PublicLayout />}>
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/team" element={<Team />} />
-              <Route path="/team/:slug" element={<MemberProfile />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/projects/:slug" element={<ProjectDetails />} />
-              <Route path="/skills" element={<Skills />} />
-              <Route path="/achievements" element={<Achievements />} />
-              <Route path="/contact" element={<Contact />} />
-            </Route>
+        <SettingsProvider>
+          <Router>
+            <Routes>
+              {/* Public Routes */}
+              <Route element={<PublicLayout />}>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/team" element={<Team />} />
+                <Route path="/team/:slug" element={<MemberProfile />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/projects/:slug" element={<ProjectDetails />} />
+                <Route path="/skills" element={<Skills />} />
+                <Route path="/achievements" element={<Achievements />} />
+                <Route path="/contact" element={<Contact />} />
+              </Route>
 
-            {/* Admin Authentication */}
-            <Route path="/admin/login" element={<Login />} />
+              {/* Admin Authentication */}
+              <Route path="/admin/login" element={<Login />} />
 
-            {/* Admin Management Panel */}
-            <Route
-              path="/admin"
-              element={
-                <ProtectedRoute>
-                  <AdminLayout />
-                </ProtectedRoute>
-              }
-            >
-              <Route index element={<Navigate to="/admin/dashboard" replace />} />
-              <Route path="dashboard" element={<Dashboard />} />
-              <Route path="members" element={<MembersAdmin />} />
-              <Route path="projects" element={<ProtectedRoute adminOnly><ProjectsAdmin /></ProtectedRoute>} />
-              <Route path="skills" element={<ProtectedRoute adminOnly><SkillsAdmin /></ProtectedRoute>} />
-              <Route path="achievements" element={<AchievementsAdmin />} />
-              <Route path="messages" element={<ProtectedRoute adminOnly><MessagesAdmin /></ProtectedRoute>} />
-              <Route path="settings" element={<ProtectedRoute adminOnly><SettingsAdmin /></ProtectedRoute>} />
-            </Route>
+              {/* Admin Management Panel */}
+              <Route
+                path="/admin"
+                element={
+                  <ProtectedRoute>
+                    <AdminLayout />
+                  </ProtectedRoute>
+                }
+              >
+                <Route index element={<Navigate to="/admin/dashboard" replace />} />
+                <Route path="dashboard" element={<Dashboard />} />
+                <Route path="members" element={<MembersAdmin />} />
+                <Route path="projects" element={<ProtectedRoute adminOnly><ProjectsAdmin /></ProtectedRoute>} />
+                <Route path="skills" element={<ProtectedRoute adminOnly><SkillsAdmin /></ProtectedRoute>} />
+                <Route path="achievements" element={<AchievementsAdmin />} />
+                <Route path="messages" element={<ProtectedRoute adminOnly><MessagesAdmin /></ProtectedRoute>} />
+                <Route path="settings" element={<ProtectedRoute adminOnly><SettingsAdmin /></ProtectedRoute>} />
+              </Route>
 
-            {/* Fallback */}
-            <Route path="*" element={<Navigate to="/" replace />} />
-          </Routes>
-        </Router>
-        <Toaster position="bottom-right" />
+              {/* Fallback */}
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Routes>
+          </Router>
+          <Toaster position="bottom-right" />
+        </SettingsProvider>
       </AuthProvider>
     </ThemeProvider>
   );
