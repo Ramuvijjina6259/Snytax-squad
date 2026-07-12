@@ -15,11 +15,6 @@ const quickLinks = [
   { to: '/contact', label: 'Contact Us' },
 ];
 
-const projectLinks = [
-  { to: '/projects/mediguide', label: 'MediGuide' },
-  { to: '/projects/connecthub', label: 'ConnectHub' },
-  { to: '/projects/bookmotion', label: 'BookMotion' },
-];
 
 export default function Footer() {
   const { isDark } = useTheme();
@@ -92,28 +87,6 @@ export default function Footer() {
                       display: 'flex', alignItems: 'center', gap: '0.4rem',
                       transition: 'color 0.2s',
                     }}
-                    onMouseEnter={e => e.currentTarget.style.color = 'var(--text-primary)'}
-                    onMouseLeave={e => e.currentTarget.style.color = 'var(--text-secondary)'}
-                  >
-                    <ArrowRight size={12} />
-                    {label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Projects */}
-          <div>
-            <h3 style={{ fontWeight: 700, marginBottom: '1rem', fontSize: '0.875rem', letterSpacing: '0.08em', textTransform: 'uppercase', color: 'var(--text-muted)' }}>
-              Projects
-            </h3>
-            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
-              {projectLinks.map(({ to, label }) => (
-                <li key={to}>
-                  <Link
-                    to={to}
-                    style={{ fontSize: '0.875rem', color: 'var(--text-secondary)', textDecoration: 'none', display: 'flex', alignItems: 'center', gap: '0.4rem', transition: 'color 0.2s' }}
                     onMouseEnter={e => e.currentTarget.style.color = 'var(--text-primary)'}
                     onMouseLeave={e => e.currentTarget.style.color = 'var(--text-secondary)'}
                   >
