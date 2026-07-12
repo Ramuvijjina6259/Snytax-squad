@@ -1,0 +1,154 @@
+[
+  {
+    "_id": "ocqgee93v",
+    "createdAt": "2026-07-12T09:28:57.043Z",
+    "updatedAt": "2026-07-12T09:28:57.043Z",
+    "name": "React",
+    "category": "Frontend Development",
+    "icon": "⚛️",
+    "experienceLevel": "Advanced",
+    "members": [
+      "qgwh5ucqm"
+    ]
+  },
+  {
+    "_id": "f6nrfbmaj",
+    "createdAt": "2026-07-12T09:28:57.043Z",
+    "updatedAt": "2026-07-12T09:28:57.043Z",
+    "name": "Node.js",
+    "category": "Backend Development",
+    "icon": "🟢",
+    "experienceLevel": "Advanced",
+    "members": [
+      "jrmkvchmf"
+    ]
+  },
+  {
+    "_id": "vp745h2c2",
+    "createdAt": "2026-07-12T09:28:57.043Z",
+    "updatedAt": "2026-07-12T09:28:57.043Z",
+    "name": "MongoDB",
+    "category": "Database Management",
+    "icon": "🍃",
+    "experienceLevel": "Advanced",
+    "members": [
+      "jrmkvchmf"
+    ]
+  },
+  {
+    "_id": "hqe95hore",
+    "createdAt": "2026-07-12T09:28:57.043Z",
+    "updatedAt": "2026-07-12T09:28:57.043Z",
+    "name": "Python",
+    "category": "Programming Languages",
+    "icon": "🐍",
+    "experienceLevel": "Advanced",
+    "members": [
+      "rok5w2yk3",
+      "zjim1puqs",
+      "yffqohzuf"
+    ]
+  },
+  {
+    "_id": "gbu01bhjl",
+    "createdAt": "2026-07-12T09:28:57.043Z",
+    "updatedAt": "2026-07-12T09:28:57.043Z",
+    "name": "Machine Learning",
+    "category": "Machine Learning",
+    "icon": "🤖",
+    "experienceLevel": "Advanced",
+    "members": [
+      "rok5w2yk3"
+    ]
+  },
+  {
+    "_id": "0sr5n5pe6",
+    "createdAt": "2026-07-12T09:28:57.043Z",
+    "updatedAt": "2026-07-12T09:28:57.043Z",
+    "name": "JavaScript",
+    "category": "Programming Languages",
+    "icon": "💛",
+    "experienceLevel": "Advanced",
+    "members": [
+      "qgwh5ucqm",
+      "jrmkvchmf",
+      "zjim1puqs",
+      "yffqohzuf"
+    ]
+  },
+  {
+    "_id": "e5pjh1eet",
+    "createdAt": "2026-07-12T09:28:57.043Z",
+    "updatedAt": "2026-07-12T09:28:57.043Z",
+    "name": "Tailwind CSS",
+    "category": "Frontend Development",
+    "icon": "💨",
+    "experienceLevel": "Advanced",
+    "members": [
+      "qgwh5ucqm"
+    ]
+  },
+  {
+    "_id": "p92sdzy3s",
+    "createdAt": "2026-07-12T09:28:57.043Z",
+    "updatedAt": "2026-07-12T09:28:57.043Z",
+    "name": "Express.js",
+    "category": "Backend Development",
+    "icon": "🚀",
+    "experienceLevel": "Advanced",
+    "members": [
+      "jrmkvchmf"
+    ]
+  },
+  {
+    "_id": "d9934cjx2",
+    "createdAt": "2026-07-12T09:28:57.043Z",
+    "updatedAt": "2026-07-12T09:28:57.043Z",
+    "name": "Scikit-learn",
+    "category": "Machine Learning",
+    "icon": "📊",
+    "experienceLevel": "Advanced",
+    "members": [
+      "rok5w2yk3"
+    ]
+  },
+  {
+    "_id": "v7pwlz7nc",
+    "createdAt": "2026-07-12T09:28:57.043Z",
+    "updatedAt": "2026-07-12T09:28:57.043Z",
+    "name": "Git",
+    "category": "Development Tools",
+    "icon": "🔧",
+    "experienceLevel": "Advanced",
+    "members": [
+      "qgwh5ucqm",
+      "jrmkvchmf",
+      "rok5w2yk3",
+      "zjim1puqs"
+    ]
+  },
+  {
+    "_id": "f7eyrdbs9",
+    "createdAt": "2026-07-12T09:28:57.043Z",
+    "updatedAt": "2026-07-12T09:28:57.043Z",
+    "name": "Figma",
+    "category": "UI/UX Design",
+    "icon": "🎨",
+    "experienceLevel": "Intermediate",
+    "members": [
+      "qgwh5ucqm"
+    ]
+  },
+  {
+    "_id": "6msekh94h",
+    "createdAt": "2026-07-12T09:28:57.043Z",
+    "updatedAt": "2026-07-12T09:28:57.043Z",
+    "name": "REST API",
+    "category": "Backend Development",
+    "icon": "🔌",
+    "experienceLevel": "Advanced",
+    "members": [
+      "jrmkvchmf"
+    ]
+  }
+]

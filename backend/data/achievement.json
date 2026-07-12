@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "2x84ohh9t",
+    "createdAt": "2026-07-12T09:28:57.047Z",
+    "updatedAt": "2026-07-12T09:28:57.047Z",
+    "title": "Full Stack Web Development Certification",
+    "organization": "Udemy",
+    "date": {},
+    "description": "Completed comprehensive full stack web development course covering React, Node.js, and MongoDB.",
+    "type": "Certification",
+    "member": "qgwh5ucqm",
+    "memberName": "V. Rama Krishna"
+  },
+  {
+    "_id": "tm3mby2z6",
+    "createdAt": "2026-07-12T09:28:57.047Z",
+    "updatedAt": "2026-07-12T09:28:57.047Z",
+    "title": "Machine Learning with Python",
+    "organization": "Coursera",
+    "date": {},
+    "description": "Completed machine learning specialization covering supervised, unsupervised learning and model evaluation.",
+    "type": "Certification",
+    "member": "rok5w2yk3",
+    "memberName": "K. Srinivas Bhaskar"
+  },
+  {
+    "_id": "hblg2pzco",
+    "createdAt": "2026-07-12T09:28:57.047Z",
+    "updatedAt": "2026-07-12T09:28:57.047Z",
+    "title": "College Hackathon - 2nd Place",
+    "organization": "RGMCET Tech Fest",
+    "date": {},
+    "description": "Secured 2nd place in college hackathon with the MediGuide project prototype.",
+    "type": "Hackathon",
+    "member": "qgwh5ucqm",
+    "memberName": "V. Rama Krishna"
+  },
+  {
+    "_id": "hdvvfsdfr",
+    "createdAt": "2026-07-12T09:28:57.047Z",
+    "updatedAt": "2026-07-12T09:28:57.047Z",
+    "title": "Node.js and Express Backend Development",
+    "organization": "freeCodeCamp",
+    "date": {},
+    "description": "Completed backend development certification covering REST API design, authentication, and database integration.",
+    "type": "Certification",
+    "member": "jrmkvchmf",
+    "memberName": "G. Kumar Pavan Manikantha"
+  },
+  {
+    "_id": "p4s12vfm0",
+    "createdAt": "2026-07-12T09:28:57.047Z",
+    "updatedAt": "2026-07-12T09:28:57.047Z",
+    "title": "Software Development Workshop",
+    "organization": "College IEEE Chapter",
+    "date": {},
+    "description": "Participated in a 2-day software development workshop covering agile methodologies and modern development practices.",
+    "type": "Workshop",
+    "member": "zjim1puqs",
+    "memberName": "K. Lokesh"
+  },
+  {
+    "_id": "yotihgrye",
+    "createdAt": "2026-07-12T09:28:57.047Z",
+    "updatedAt": "2026-07-12T09:28:57.047Z",
+    "title": "Technical Documentation Excellence Award",
+    "organization": "RGMCET",
+    "date": {},
+    "description": "Recognized for outstanding technical documentation of the MediGuide project.",
+    "type": "Award",
+    "member": "yffqohzuf",
+    "memberName": "K. Manikanta"
+  }
+]

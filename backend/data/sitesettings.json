@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "e1uqpe5ab",
+    "createdAt": "2026-07-12T09:28:57.006Z",
+    "updatedAt": "2026-07-12T09:28:57.006Z",
+    "teamName": "Syntax Squad",
+    "tagline": "Building Ideas. Creating Solutions. Growing Together.",
+    "description": "Syntax Squad is a passionate team of software developers dedicated to building innovative solutions using modern technologies. We combine creativity, technical expertise, and collaborative spirit to deliver exceptional projects.",
+    "mission": "To develop innovative and impactful software solutions that solve real-world problems through collaboration, modern technologies, and continuous learning.",
+    "vision": "To become a leading software development team known for quality, innovation, collaboration, and producing graduates who are industry-ready.",
+    "email": "syntaxsquad.team@gmail.com",
+    "location": "Andhra Pradesh, India",
+    "socialLinks": {
+      "github": "https://github.com/syntax-squad",
+      "linkedin": "https://linkedin.com/company/syntax-squad"
+    },
+    "heroText": "We build modern, scalable web applications and intelligent systems using cutting-edge technologies. From concept to deployment, we deliver excellence."
+  }
+]

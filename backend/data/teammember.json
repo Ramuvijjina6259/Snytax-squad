@@ -1,0 +1,482 @@
+[
+  {
+    "_id": "qgwh5ucqm",
+    "createdAt": "2026-07-12T09:28:57.009Z",
+    "updatedAt": "2026-07-12T10:09:14.326Z",
+    "name": "V. Rama Krishna",
+    "slug": "v-rama-krishna",
+    "role": "Team Lead & Frontend Developer",
+    "shortBio": "Passionate frontend developer and team lead with expertise in React, modern CSS, and UI/UX design.",
+    "fullBio": "V. Rama Krishna is the Team Lead of Syntax Squad, bringing together technical expertise and leadership skills. With a strong foundation in frontend development and UI/UX design, he leads the team in building beautiful, responsive web applications. He is passionate about creating user-centric solutions and fostering a collaborative team environment.",
+    "email": "ramakrishna@syntaxsquad.dev",
+    "location": "Andhra Pradesh, India",
+    "careerObjective": "To leverage my technical skills and leadership abilities to build innovative web solutions while growing as a full-stack developer and tech lead.",
+    "responsibilities": [
+      "Team coordination and task management",
+      "UI/UX planning and design",
+      "Frontend development with React",
+      "Project presentation and client communication",
+      "Code review and quality assurance"
+    ],
+    "areasOfInterest": [
+      "Frontend Development",
+      "UI/UX Design",
+      "React Ecosystem",
+      "Team Leadership",
+      "Open Source"
+    ],
+    "currentLearning": [
+      "TypeScript",
+      "Next.js",
+      "Node.js",
+      "System Design"
+    ],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "Advanced",
+        "category": "Frontend Development"
+      },
+      {
+        "name": "CSS",
+        "level": "Advanced",
+        "category": "Frontend Development"
+      },
+      {
+        "name": "JavaScript",
+        "level": "Advanced",
+        "category": "Programming Languages"
+      },
+      {
+        "name": "React",
+        "level": "Advanced",
+        "category": "Frontend Development"
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": "Advanced",
+        "category": "Frontend Development"
+      },
+      {
+        "name": "Vite",
+        "level": "Intermediate",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Git",
+        "level": "Advanced",
+        "category": "Development Tools"
+      },
+      {
+        "name": "GitHub",
+        "level": "Advanced",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Figma",
+        "level": "Intermediate",
+        "category": "UI/UX Design"
+      },
+      {
+        "name": "Responsive Design",
+        "level": "Advanced",
+        "category": "Frontend Development"
+      }
+    ],
+    "githubUrl": "https://github.com/ramakrishna",
+    "linkedinUrl": "https://linkedin.com/in/ramakrishna",
+    "availability": "Open to Opportunities",
+    "displayOrder": 1,
+    "filterCategory": [
+      "Team Leadership",
+      "Frontend"
+    ],
+    "projectCount": 3,
+    "contributions": [
+      {
+        "projectName": "MediGuide",
+        "role": "Team Lead & Frontend Developer",
+        "tasks": [
+          "UI/UX Design",
+          "Frontend Development",
+          "Team Management",
+          "Routing"
+        ],
+        "technologies": [
+          "React",
+          "CSS",
+          "Vite"
+        ],
+        "contributionLevel": "Lead",
+        "status": "In Progress"
+      },
+      {
+        "projectName": "ConnectHub",
+        "role": "Frontend Developer",
+        "tasks": [
+          "Dashboard UI",
+          "Component Architecture"
+        ],
+        "technologies": [
+          "React",
+          "CSS"
+        ],
+        "contributionLevel": "High",
+        "status": "In Progress"
+      },
+      {
+        "projectName": "BookMotion",
+        "role": "Frontend Developer",
+        "tasks": [
+          "UI Planning",
+          "Component Design"
+        ],
+        "technologies": [
+          "React"
+        ],
+        "contributionLevel": "Medium",
+        "status": "Planned"
+      }
+    ],
+    "portfolioUrl": "",
+    "resumeUrl": "",
+    "profileImage": "/uploads/1783850954229-426457522.png"
+  },
+  {
+    "_id": "jrmkvchmf",
+    "createdAt": "2026-07-12T09:28:57.015Z",
+    "updatedAt": "2026-07-12T10:02:52.891Z",
+    "name": "G. Kumar Pavan Manikantha",
+    "slug": "g-kumar-pavan-manikantha",
+    "role": "Backend Developer",
+    "shortBio": "Backend developer specializing in Node.js, Express, and MongoDB with a focus on building robust REST APIs.",
+    "fullBio": "G. Kumar Pavan Manikantha is a dedicated backend developer who architects and builds the server-side infrastructure of Syntax Squad projects. With expertise in Node.js, Express, and MongoDB, he ensures that our applications are scalable, secure, and performant. He is passionate about clean API design and database optimization.",
+    "email": "pavan@syntaxsquad.dev",
+    "location": "Andhra Pradesh, India",
+    "careerObjective": "To build scalable backend systems and REST APIs that power modern web applications, while growing expertise in cloud technologies and microservices.",
+    "responsibilities": [
+      "Backend API design and development",
+      "Server-side architecture",
+      "JWT authentication implementation",
+      "Database integration and optimization",
+      "API testing with Postman"
+    ],
+    "areasOfInterest": [
+      "Backend Development",
+      "API Design",
+      "Database Management",
+      "Cloud Computing",
+      "DevOps"
+    ],
+    "currentLearning": [
+      "Docker",
+      "AWS",
+      "GraphQL",
+      "Microservices"
+    ],
+    "skills": [
+      {
+        "name": "Node.js",
+        "level": "Advanced",
+        "category": "Backend Development"
+      },
+      {
+        "name": "Express.js",
+        "level": "Advanced",
+        "category": "Backend Development"
+      },
+      {
+        "name": "MongoDB",
+        "level": "Advanced",
+        "category": "Database Management"
+      },
+      {
+        "name": "REST API",
+        "level": "Advanced",
+        "category": "Backend Development"
+      },
+      {
+        "name": "JavaScript",
+        "level": "Advanced",
+        "category": "Programming Languages"
+      },
+      {
+        "name": "Postman",
+        "level": "Advanced",
+        "category": "Development Tools"
+      },
+      {
+        "name": "JWT",
+        "level": "Intermediate",
+        "category": "Backend Development"
+      },
+      {
+        "name": "Git",
+        "level": "Intermediate",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Mongoose",
+        "level": "Advanced",
+        "category": "Database Management"
+      }
+    ],
+    "githubUrl": "https://github.com/pavanmanikantha",
+    "linkedinUrl": "https://linkedin.com/in/pavanmanikantha",
+    "availability": "Open to Opportunities",
+    "displayOrder": 2,
+    "filterCategory": [
+      "Backend"
+    ],
+    "projectCount": 3,
+    "portfolioUrl": "",
+    "resumeUrl": ""
+  },
+  {
+    "_id": "rok5w2yk3",
+    "createdAt": "2026-07-12T09:28:57.020Z",
+    "updatedAt": "2026-07-12T09:28:57.020Z",
+    "name": "K. Srinivas Bhaskar",
+    "slug": "k-srinivas-bhaskar",
+    "role": "ML Developer & Second Team Lead",
+    "shortBio": "Machine Learning developer and co-lead specializing in Python, scikit-learn, and intelligent system development.",
+    "fullBio": "K. Srinivas Bhaskar serves as both a Machine Learning Developer and Second Team Lead in Syntax Squad. He is responsible for building and integrating intelligent ML models into our projects. With expertise in Python, Pandas, NumPy, and Scikit-learn, he drives the AI/ML capabilities of the team while also supporting team coordination.",
+    "email": "srinivas@syntaxsquad.dev",
+    "location": "Andhra Pradesh, India",
+    "careerObjective": "To apply machine learning and data science skills to build intelligent applications that make a positive impact, while growing into a full-stack AI/ML engineer.",
+    "responsibilities": [
+      "Machine learning model development and training",
+      "Dataset preprocessing and feature engineering",
+      "Model evaluation and optimization",
+      "ML model integration with backend APIs",
+      "Team coordination support"
+    ],
+    "areasOfInterest": [
+      "Machine Learning",
+      "Deep Learning",
+      "Data Science",
+      "AI Applications",
+      "Python Development"
+    ],
+    "currentLearning": [
+      "TensorFlow",
+      "Deep Learning",
+      "NLP",
+      "Computer Vision"
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "level": "Advanced",
+        "category": "Programming Languages"
+      },
+      {
+        "name": "Pandas",
+        "level": "Advanced",
+        "category": "Machine Learning"
+      },
+      {
+        "name": "NumPy",
+        "level": "Advanced",
+        "category": "Machine Learning"
+      },
+      {
+        "name": "Scikit-learn",
+        "level": "Advanced",
+        "category": "Machine Learning"
+      },
+      {
+        "name": "Machine Learning",
+        "level": "Advanced",
+        "category": "Machine Learning"
+      },
+      {
+        "name": "Data Preprocessing",
+        "level": "Advanced",
+        "category": "Machine Learning"
+      },
+      {
+        "name": "Model Evaluation",
+        "level": "Intermediate",
+        "category": "Machine Learning"
+      },
+      {
+        "name": "Git",
+        "level": "Intermediate",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Jupyter Notebook",
+        "level": "Advanced",
+        "category": "Development Tools"
+      }
+    ],
+    "githubUrl": "https://github.com/srinivasbhaskar",
+    "linkedinUrl": "https://linkedin.com/in/srinivasbhaskar",
+    "availability": "Open to Opportunities",
+    "displayOrder": 3,
+    "filterCategory": [
+      "Machine Learning",
+      "Team Leadership"
+    ],
+    "projectCount": 2
+  },
+  {
+    "_id": "zjim1puqs",
+    "createdAt": "2026-07-12T09:28:57.024Z",
+    "updatedAt": "2026-07-12T09:28:57.024Z",
+    "name": "K. Lokesh",
+    "slug": "k-lokesh",
+    "role": "Developer & Testing Member",
+    "shortBio": "Developer and quality assurance specialist focused on feature development, bug identification, and software testing.",
+    "fullBio": "K. Lokesh is a dedicated developer and testing member of Syntax Squad. He contributes to feature development while ensuring the quality of our software through rigorous testing and bug identification. His attention to detail and systematic approach to testing makes him an invaluable part of the team.",
+    "email": "lokesh@syntaxsquad.dev",
+    "location": "Andhra Pradesh, India",
+    "careerObjective": "To develop robust software features and implement comprehensive testing strategies that ensure high-quality, reliable applications.",
+    "responsibilities": [
+      "Feature development and implementation",
+      "Software testing and quality assurance",
+      "Bug identification and reporting",
+      "Documentation support",
+      "Code review participation"
+    ],
+    "areasOfInterest": [
+      "Software Testing",
+      "Full Stack Development",
+      "Quality Assurance",
+      "DevOps",
+      "Automation Testing"
+    ],
+    "currentLearning": [
+      "React",
+      "Testing Libraries",
+      "CI/CD",
+      "Automation Testing"
+    ],
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "Intermediate",
+        "category": "Programming Languages"
+      },
+      {
+        "name": "HTML",
+        "level": "Intermediate",
+        "category": "Frontend Development"
+      },
+      {
+        "name": "CSS",
+        "level": "Intermediate",
+        "category": "Frontend Development"
+      },
+      {
+        "name": "Software Testing",
+        "level": "Intermediate",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Bug Tracking",
+        "level": "Intermediate",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Git",
+        "level": "Intermediate",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Python",
+        "level": "Beginner",
+        "category": "Programming Languages"
+      }
+    ],
+    "githubUrl": "https://github.com/klokesh",
+    "linkedinUrl": "https://linkedin.com/in/klokesh",
+    "availability": "Open to Opportunities",
+    "displayOrder": 4,
+    "filterCategory": [
+      "Frontend",
+      "Backend"
+    ],
+    "projectCount": 2
+  },
+  {
+    "_id": "yffqohzuf",
+    "createdAt": "2026-07-12T09:28:57.027Z",
+    "updatedAt": "2026-07-12T09:28:57.027Z",
+    "name": "K. Manikanta",
+    "slug": "k-manikanta",
+    "role": "Developer & Documentation Member",
+    "shortBio": "Developer and documentation specialist responsible for feature implementation, research, and maintaining comprehensive project documentation.",
+    "fullBio": "K. Manikanta is a developer and documentation member who ensures that all Syntax Squad projects are well-documented and properly researched. He contributes to feature implementation while maintaining comprehensive documentation that helps the team and future maintainers understand the project architecture and functionality.",
+    "email": "manikanta@syntaxsquad.dev",
+    "location": "Andhra Pradesh, India",
+    "careerObjective": "To contribute to impactful software projects through feature development and maintaining excellent documentation practices that enable team collaboration and knowledge sharing.",
+    "responsibilities": [
+      "Feature implementation and development",
+      "Project documentation creation and maintenance",
+      "Testing support",
+      "Research and content preparation",
+      "Technical writing"
+    ],
+    "areasOfInterest": [
+      "Software Development",
+      "Technical Writing",
+      "Research",
+      "Web Development",
+      "Open Source"
+    ],
+    "currentLearning": [
+      "React",
+      "Node.js",
+      "Technical Documentation",
+      "API Design"
+    ],
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": "Intermediate",
+        "category": "Programming Languages"
+      },
+      {
+        "name": "HTML",
+        "level": "Intermediate",
+        "category": "Frontend Development"
+      },
+      {
+        "name": "CSS",
+        "level": "Intermediate",
+        "category": "Frontend Development"
+      },
+      {
+        "name": "Technical Writing",
+        "level": "Advanced",
+        "category": "Soft Skills"
+      },
+      {
+        "name": "Research",
+        "level": "Advanced",
+        "category": "Soft Skills"
+      },
+      {
+        "name": "Git",
+        "level": "Beginner",
+        "category": "Development Tools"
+      },
+      {
+        "name": "Python",
+        "level": "Beginner",
+        "category": "Programming Languages"
+      }
+    ],
+    "githubUrl": "https://github.com/kmanikanta",
+    "linkedinUrl": "https://linkedin.com/in/kmanikanta",
+    "availability": "Open to Opportunities",
+    "displayOrder": 5,
+    "filterCategory": [
+      "Frontend",
+      "Backend"
+    ],
+    "projectCount": 2
+  }
+]

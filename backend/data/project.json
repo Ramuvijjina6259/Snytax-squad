@@ -1,0 +1,205 @@
+[
+  {
+    "_id": "byhmqcro5",
+    "createdAt": "2026-07-12T09:28:57.029Z",
+    "updatedAt": "2026-07-12T09:28:57.029Z",
+    "title": "MediGuide",
+    "slug": "mediguide",
+    "shortDescription": "A symptom-based disease prediction and specialist recommendation platform.",
+    "fullDescription": "MediGuide is a comprehensive healthcare web application that helps users understand possible health conditions based on symptoms. The platform uses machine learning algorithms to predict diseases and recommends appropriate medical specialists and nearby hospitals, providing users with a complete health guidance experience.",
+    "problemStatement": "Many people in India lack access to immediate medical consultation and often do not know which specialist to visit for their symptoms, leading to delayed treatment and unnecessary expenses.",
+    "proposedSolution": "A web platform where users can input their symptoms and receive AI-powered disease predictions along with specialist recommendations and nearby hospital information, making healthcare guidance accessible to everyone.",
+    "objectives": [
+      "Enable symptom-based disease prediction using ML",
+      "Recommend appropriate medical specialists",
+      "Provide nearby hospital information",
+      "Create an intuitive health dashboard",
+      "Ensure secure user authentication"
+    ],
+    "features": [
+      "Symptom input interface",
+      "ML-based disease prediction",
+      "Medical specialist recommendation",
+      "Hospital finder integration",
+      "User authentication and dashboard",
+      "Medical precautions display",
+      "Responsive health result interface",
+      "User history tracking"
+    ],
+    "technologies": [
+      "React",
+      "CSS",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Python",
+      "Machine Learning",
+      "Scikit-learn",
+      "REST API"
+    ],
+    "category": "Healthcare",
+    "status": "In Progress",
+    "contributors": [
+      {
+        "name": "V. Rama Krishna",
+        "role": "Team Lead & Frontend Developer",
+        "workCompleted": [
+          "Designed the complete website UI/UX",
+          "Developed Home, Login, Dashboard, Symptom Input, and Result pages",
+          "Managed team tasks and project progress",
+          "Integrated frontend routing with React Router",
+          "Coordinated backend and ML teams"
+        ],
+        "technologies": [
+          "React",
+          "CSS",
+          "React Router",
+          "Vite"
+        ],
+        "status": "In Progress"
+      },
+      {
+        "name": "G. Kumar Pavan Manikantha",
+        "role": "Backend Developer",
+        "workCompleted": [
+          "Developed REST API endpoints",
+          "Implemented JWT authentication",
+          "Designed MongoDB database schema",
+          "Integrated Python ML model with Node.js backend",
+          "API testing and documentation"
+        ],
+        "technologies": [
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "JWT"
+        ],
+        "status": "In Progress"
+      },
+      {
+        "name": "K. Srinivas Bhaskar",
+        "role": "ML Developer",
+        "workCompleted": [
+          "Preprocessed medical dataset",
+          "Trained disease prediction model",
+          "Evaluated and optimized model accuracy",
+          "Created prediction API endpoint",
+          "Documented ML pipeline"
+        ],
+        "technologies": [
+          "Python",
+          "Scikit-learn",
+          "Pandas",
+          "NumPy"
+        ],
+        "status": "In Progress"
+      },
+      {
+        "name": "K. Lokesh",
+        "role": "Developer & Tester",
+        "workCompleted": [
+          "Feature development support",
+          "Manual testing of all pages",
+          "Bug identification and reporting",
+          "UI component testing"
+        ],
+        "technologies": [
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ],
+        "status": "In Progress"
+      },
+      {
+        "name": "K. Manikanta",
+        "role": "Developer & Documentation",
+        "workCompleted": [
+          "Project documentation creation",
+          "Research on medical datasets",
+          "Content preparation for health information",
+          "Testing support"
+        ],
+        "technologies": [
+          "Markdown",
+          "JavaScript"
+        ],
+        "status": "In Progress"
+      }
+    ],
+    "githubUrl": "https://github.com/syntax-squad/mediguide",
+    "progressPercentage": 65,
+    "isFeatured": true,
+    "displayOrder": 1,
+    "challenges": [
+      "Ensuring ML model accuracy",
+      "Integrating Python with Node.js",
+      "Handling large medical datasets"
+    ],
+    "futureImprovements": [
+      "Mobile app version",
+      "Doctor appointment booking",
+      "Real-time hospital availability"
+    ]
+  },
+  {
+    "_id": "cx1h7dbjd",
+    "createdAt": "2026-07-12T10:16:12.479Z",
+    "updatedAt": "2026-07-12T10:16:12.479Z",
+    "title": "college placement preparation chatbot",
+    "shortDescription": "**College Placement Preparation Chatbot** is an AI-powered assistant that helps students prepare for campus placements by providing personalized study plans, aptitude and coding practice, interview preparation, resume guidance, and company-specific resources. It tracks learning progress, answers placement-related questions, and recommends topics to improve, making placement preparation more organized and effective. 🚀",
+    "fullDescription": "",
+    "problemStatement": "",
+    "proposedSolution": "",
+    "category": "Web Development",
+    "status": "Testing",
+    "progressPercentage": "69",
+    "githubUrl": "",
+    "liveDemoUrl": "",
+    "documentationUrl": "",
+    "isFeatured": false,
+    "displayOrder": "2",
+    "technologies": [],
+    "objectives": [],
+    "features": [],
+    "challenges": [],
+    "futureImprovements": [],
+    "contributors": [
+      {
+        "member": "qgwh5ucqm",
+        "name": "V. Rama Krishna",
+        "role": "frontend",
+        "workCompleted": [],
+        "status": "In Progress"
+      },
+      {
+        "member": "jrmkvchmf",
+        "name": "G. Kumar Pavan Manikantha",
+        "role": "frontend & ui design",
+        "workCompleted": [],
+        "status": "In Progress"
+      },
+      {
+        "member": "rok5w2yk3",
+        "name": "K. Srinivas Bhaskar",
+        "role": "backend developer",
+        "workCompleted": [],
+        "status": "In Progress"
+      },
+      {
+        "member": "zjim1puqs",
+        "name": "K. Lokesh",
+        "role": "database & error handling",
+        "workCompleted": [],
+        "status": "In Progress"
+      },
+      {
+        "member": "yffqohzuf",
+        "name": "K. Manikanta",
+        "role": "testing & deployment",
+        "workCompleted": [],
+        "status": "In Progress"
+      }
+    ],
+    "slug": "college-placement-preparation-chatbot"
+  }
+]

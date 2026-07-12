@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "dixfv4n5k",
+    "createdAt": "2026-07-12T09:28:52.713Z",
+    "updatedAt": "2026-07-12T09:28:52.715Z",
+    "name": "V. Rama Krishna",
+    "email": "admin@syntaxsquad.dev",
+    "password": "$2a$12$Y34VJ4nn.JGZQpVjOP0CGekF65EG5i4u1js7hlQjexOkfxYjxl7PW",
+    "role": "admin"
+  },
+  {
+    "_id": "0hjljf99f",
+    "createdAt": "2026-07-12T09:28:53.466Z",
+    "updatedAt": "2026-07-12T09:28:53.466Z",
+    "name": "V. Rama Krishna",
+    "email": "ramakrishna@syntaxsquad.dev",
+    "password": "$2a$12$R9X5CZ14d5bVPdCcG1zAGeQXyKakZ70vvv9iMHW4Js/RzjJ4XRWsu",
+    "role": "member"
+  },
+  {
+    "_id": "z2ftv4511",
+    "createdAt": "2026-07-12T09:28:54.152Z",
+    "updatedAt": "2026-07-12T09:28:54.152Z",
+    "name": "G. Kumar Pavan Manikantha",
+    "email": "pavan@syntaxsquad.dev",
+    "password": "$2a$12$zTB2z1t/6ehEgrA9FCeF3ejtrF803Jnn/Zwc1Ura6t9EzK4dVNBT6",
+    "role": "member"
+  },
+  {
+    "_id": "ok987id8t",
+    "createdAt": "2026-07-12T09:28:54.902Z",
+    "updatedAt": "2026-07-12T09:28:54.902Z",
+    "name": "K. Srinivas Bhaskar",
+    "email": "srinivas@syntaxsquad.dev",
+    "password": "$2a$12$x8z9U/ykQH54E1KxQhJMruHNHCRDU6D6uzEK7wrd./UMLmWEJ877W",
+    "role": "member"
+  },
+  {
+    "_id": "pa3j3ef8s",
+    "createdAt": "2026-07-12T09:28:55.641Z",
+    "updatedAt": "2026-07-12T09:28:55.641Z",
+    "name": "K. Lokesh",
+    "email": "lokesh@syntaxsquad.dev",
+    "password": "$2a$12$0Cv4GrlfzHuuGHCP4RQQWOdLdEfHnRQOsud9Bnuoj3k7QA9gt5hp.",
+    "role": "member"
+  },
+  {
+    "_id": "qep9zy3ft",
+    "createdAt": "2026-07-12T09:28:56.323Z",
+    "updatedAt": "2026-07-12T09:28:56.323Z",
+    "name": "K. Manikanta",
+    "email": "manikanta@syntaxsquad.dev",
+    "password": "$2a$12$KNV36bGn6ha49U7K7BWxu.rJADpaek5Ye3xMrW7rekeJElKSvliDq",
+    "role": "member"
+  }
+]
