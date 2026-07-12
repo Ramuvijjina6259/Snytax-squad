@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const siteSettingsSchema = new mongoose.Schema({
   teamName: { type: String, default: 'Syntax Squad' },
-  logo: { type: String, default: '' },
+  logo: { type: String, default: '/uploads/logo.png' },
   tagline: { type: String, default: 'Building Ideas. Creating Solutions. Growing Together.' },
   description: { type: String, default: 'A passionate team of software developers dedicated to building innovative solutions.' },
   mission: { type: String, default: 'To develop innovative and impactful software solutions that solve real-world problems.' },

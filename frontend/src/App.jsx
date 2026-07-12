@@ -1,8 +1,10 @@
+import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Outlet, Navigate } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import { ThemeProvider } from './context/ThemeContext';
 import { AuthProvider } from './context/AuthContext';
 import { SettingsProvider } from './context/SettingsContext';
+import IntroSplash from './components/common/IntroSplash';
 
 // Layouts
 import Navbar from './components/common/Navbar';
@@ -33,8 +35,13 @@ import SettingsAdmin from './pages/admin/Settings';
 
 // Public Layout
 function PublicLayout() {
+  const [introPlaying, setIntroPlaying] = useState(() => {
+    return !sessionStorage.getItem('ss-has-seen-intro');
+  });
+
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+      {introPlaying && <IntroSplash onComplete={() => setIntroPlaying(false)} />}
       <Navbar />
       <main style={{ flex: 1 }}>
         <Outlet />
