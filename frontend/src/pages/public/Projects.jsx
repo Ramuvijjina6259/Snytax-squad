@@ -11,7 +11,6 @@ const filters = [
   { id: 'Full Stack', label: 'Full Stack' },
   { id: 'Web Development', label: 'Web Dev' },
   { id: 'Machine Learning', label: 'ML' },
-  { id: 'Healthcare', label: 'Healthcare' },
   { id: 'Education', label: 'Education' },
   { id: 'Completed', label: 'Completed' },
   { id: 'In Progress', label: 'In Progress' }

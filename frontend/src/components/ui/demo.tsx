@@ -1,4 +1,5 @@
 import TeamShowcase from "@/components/ui/team-showcase";
+import { BackgroundPaths } from "@/components/ui/background-paths"
 
 export default function TeamShowcaseDemo() {
   return (
@@ -6,4 +7,8 @@ export default function TeamShowcaseDemo() {
       <TeamShowcase />
     </div>
   );
+}
+
+export function DemoBackgroundPaths() {
+    return <BackgroundPaths title="Background Paths" />
 }

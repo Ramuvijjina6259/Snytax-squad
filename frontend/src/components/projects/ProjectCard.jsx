@@ -13,7 +13,6 @@ const statusConfig = {
 };
 
 const categoryColors = {
-  'Healthcare': 'badge-green',
   'Education': 'badge-blue',
   'Full Stack': 'badge-purple',
   'Web Development': 'badge-cyan',
@@ -50,7 +49,7 @@ export default function ProjectCard({ project, index = 0 }) {
         ) : (
           <div style={{ textAlign: 'center' }}>
             <div style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>
-              {category === 'Healthcare' ? '🏥' : category === 'Education' ? '📚' : category === 'Machine Learning' ? '🤖' : '💻'}
+              {category === 'Education' ? '📚' : category === 'Machine Learning' ? '🤖' : '💻'}
             </div>
             <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', fontFamily: 'var(--font-mono)' }}>{category}</div>
           </div>

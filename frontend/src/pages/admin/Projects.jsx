@@ -6,7 +6,7 @@ import ConfirmModal from '../../components/common/ConfirmModal';
 
 const categories = [
   'Web Development', 'Full Stack', 'Artificial Intelligence',
-  'Machine Learning', 'Healthcare', 'Education', 'Mobile Applications', 'Messaging Platform', 'Other'
+  'Machine Learning', 'Education', 'Mobile Applications', 'Messaging Platform', 'Other'
 ];
 
 const statuses = ['Planning', 'In Progress', 'Testing', 'Completed', 'Deployed', 'Maintenance'];

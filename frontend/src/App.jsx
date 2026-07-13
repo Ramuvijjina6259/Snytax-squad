@@ -22,6 +22,7 @@ import ProjectDetails from './pages/public/ProjectDetails';
 import Skills from './pages/public/Skills';
 import Achievements from './pages/public/Achievements';
 import Contact from './pages/public/Contact';
+import { DemoBackgroundPaths } from './components/ui/demo';
 
 // Admin Pages
 import Login from './pages/admin/Login';
@@ -81,6 +82,7 @@ export default function App() {
                 <Route path="/skills" element={<Skills />} />
                 <Route path="/achievements" element={<Achievements />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/demo" element={<DemoBackgroundPaths />} />
               </Route>
 
               {/* Admin Authentication */}

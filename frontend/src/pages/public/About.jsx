@@ -17,8 +17,7 @@ const workflow = [
 
 const milestones = [
   { year: '2024', title: 'Team Formation', desc: 'Syntax Squad was formed by 5 passionate software engineering students.', color: 'var(--text-primary)' },
-  { year: '2024', title: 'First Project: MediGuide', desc: 'Started development of MediGuide — a healthcare AI prediction platform.', color: 'var(--text-primary)' },
-  { year: '2024', title: 'Hackathon Success', desc: 'Won 2nd place in college hackathon with the MediGuide prototype.', color: 'var(--text-primary)' },
+  { year: '2024', title: 'Hackathon Success', desc: 'Won 2nd place in college hackathon with our first prototype.', color: 'var(--text-primary)' },
   { year: '2025', title: 'ConnectHub & BookMotion', desc: 'Expanded our portfolio with two new innovative projects.', color: 'var(--text-primary)' },
   { year: '2025', title: 'Multiple Certifications', desc: 'Team members earned certifications in React, Node.js, and Machine Learning.', color: 'var(--text-primary)' },
   { year: '2026', title: 'Portfolio Launch', desc: 'Launched this professional team portfolio to showcase our work.', color: 'var(--text-primary)' },
