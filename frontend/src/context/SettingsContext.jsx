@@ -7,7 +7,7 @@ export function SettingsProvider({ children }) {
   const [settings, setSettings] = useState(null);
   const [loading, setLoading] = useState(true);
 
-  const fetchSettings = async () => {
+  const fetchSettings = async (retryCount = 0) => {
     try {
       const { data } = await getSettings();
       if (data.success && data.data) {
@@ -15,6 +15,9 @@ export function SettingsProvider({ children }) {
       }
     } catch (err) {
       console.error('Error fetching global settings:', err);
+      if (retryCount < 3) {
+        setTimeout(() => fetchSettings(retryCount + 1), 2000);
+      }
     } finally {
       setLoading(false);
     }

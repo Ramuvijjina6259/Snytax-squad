@@ -64,13 +64,13 @@ export default function Home() {
     const fetchData = async () => {
       try {
         const [mRes, pRes, sRes] = await Promise.all([
-          getMembers(),
-          getProjects({ featured: 'true' }),
-          getSettings(),
+          getMembers().catch(err => { console.error('Error fetching members:', err); return { data: { data: [] } }; }),
+          getProjects({ featured: 'true' }).catch(err => { console.error('Error fetching projects:', err); return { data: { data: [] } }; }),
+          getSettings().catch(err => { console.error('Error fetching settings:', err); return { data: { data: null } }; }),
         ]);
-        setMembers(mRes.data.data || []);
-        setProjects(pRes.data.data || []);
-        setSettings(sRes.data.data);
+        setMembers(mRes?.data?.data || []);
+        setProjects(pRes?.data?.data || []);
+        setSettings(sRes?.data?.data || null);
       } catch (err) {
         console.error(err);
       } finally {
